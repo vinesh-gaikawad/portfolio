@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f172a;
+    color: #fff;
+}
+
+
+
+
+#home {
+    height: 900px;
+}
+
+
+.neon-text {
+    color: #00F0FF;
+}
+
+.neon-border {
+    border: 2px solid #00F0FF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.neon-button {
+    background-color: #00F0FF;
+    color: #0f172a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.neon-button:hover {
+    background-color: #00F0FF;
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.neon-border {
+    border: 4px solid #00F0FF;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 0 15px #00F0FF, 0 0 30px #00F0FF, 0 0 45px #00F0FF;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 15px #00F0FF, 0 0 30px #00F0FF;
+    }
+
+    to {
+        box-shadow: 0 0 20px #00F0FF, 0 0 40px #00F0FF, 0 0 60px #00F0FF;
+    }
+}
+
+img.rounded-full {
+    transition: transform 0.3s ease-in-out;
+}
+
+img.rounded-full:hover {
+    transform: scale(1.1);
+}
+

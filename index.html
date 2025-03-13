@@ -1,0 +1,160 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-900 text-white">
+    <header class="bg-gray-800 p-4 fade-in">
+        <nav class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">Portfolio.</div>
+            <ul class="flex space-x-4">
+                <li><a class="hover:text-gray-400" href="#home">Home</a></li>
+                <li><a class="hover:text-gray-400" href="#about">About</a></li>
+                <li><a class="hover:text-gray-400" href="#services">Services</a></li>
+                <li><a class="hover:text-gray-400" href="#portfolio">Portfolio</a></li>
+                <li><a class="hover:text-gray-400" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container mx-auto p-4">
+        <section id="home" class="flex items-center py-10 fade-in">
+            <div class="w-1/2 text-left px-10">
+                <h1 class="text-4xl font-bold">Hello, It's Me</h1><br>
+                <h2 class="text-5xl font-bold neon-text">Vinesh Gaikawad</h2>
+                <h3 class="text-2xl">And I'm a <span class="neon-text">Graphics Designer</span></h3> <br>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ab obcaecati
+                    repellat
+                    reiciendis ipsam perspiciatis.</p>
+                <div class="flex space-x-4 mt-4">
+                    <a class="text-2xl" href="#"><i class="fab fa-facebook"></i></a>
+                    <a class="text-2xl" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="text-2xl" href="#"><i class="fab fa-linkedin"></i></a>
+                    <a class="text-2xl" href="#"><i class="fab fa-github"></i></a>
+                </div>
+                <button class="neon-button mt-4">Download CV</button>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="neon-border">
+                    <img alt="Portrait of John Kendric" class="rounded-full" height="300" src="/img/vinesh.jpg"
+                        width="300" />
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="flex flex-col md:flex-row items-center py-10 fade-in">
+            <div class="md:w-1/2 flex justify-center">
+                <div class="neon-border">
+                    <img alt="Portrait of John Kendric" class="rounded-full" height="300"
+                        src="/img/vinesh.jpg"
+                        width="300" />
+                </div>
+            </div>
+            <div class="md:w-1/2 text-center md:text-left mt-10 md:mt-0">
+                <h2 class="text-4xl font-bold">About <span class="neon-text">Me</span></h2>
+                <h3 class="text-2xl">Graphic Designer</h3>
+                <p class="mt-4">I'm Vinesh Gaikawad multimedia graphic designer specializing in
+                    adverstising and editorial design with an smphasis on social media content development.
+
+                </p>
+                <p class="mt-4">My design style is bold, expressive and lively. 
+                    I am experienced in leading creative projects and design teams
+                </p>
+                <!-- <button class="neon-button mt-4">Read More</button> -->
+            </div>
+        </section>
+        <section id="services" class="py-10 fade-in">
+            <h2 class="text-4xl font-bold text-center">Our <span class="neon-text">Services</span></h2>
+            <div
+                class="flex flex-col md:flex-row justify-center items-center mt-10 space-y-4 md:space-y-0 md:space-x-4">
+                <div class="bg-gray-800 p-6 rounded-lg text-center">
+                    <i class="fas fa-code text-4xl neon-text"></i>
+                    <h3 class="text-2xl font-bold mt-4">Web Development</h3>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eius!</p>
+                    <button class="neon-button mt-4">Read More</button>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg text-center">
+                    <i class="fas fa-paint-brush text-4xl neon-text"></i>
+                    <h3 class="text-2xl font-bold mt-4">Graphic Design</h3>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eius!</p>
+                    <button class="neon-button mt-4">Read More</button>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg text-center">
+                    <i class="fas fa-bullhorn text-4xl neon-text"></i>
+                    <h3 class="text-2xl font-bold mt-4">Digital Marketing</h3>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eius!</p>
+                    <button class="neon-button mt-4">Read More</button>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="py-10 fade-in">
+            <h2 class="text-4xl font-bold text-center">Latest <span class="neon-text">Designs</span></h2>
+       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img alt="Project image 1" class="rounded-lg" height="200"
+                        src="https://storage.googleapis.com/a1aa/image/t148_xfluytB3dQlZM4OU-71XPgDQJGCMQQDo9ERqeY.jpg"
+                        width="300" />
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img alt="Project image 2" class="rounded-lg" height="200"
+                        src="https://storage.googleapis.com/a1aa/image/TN7sdrq7i88lv2NcmUKFwSjBOybLrw_ZjkZ8TatXH7o.jpg"
+                        width="300" />
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img alt="Project image 3" class="rounded-lg" height="200"
+                        src="https://storage.googleapis.com/a1aa/image/MyoMqIFWtyeFAFnrmFWrk5xufEij9BXvL93eBl6k1uI.jpg"
+                        width="300" />
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img alt="Project image 4" class="rounded-lg" height="200"
+                        src="https://storage.googleapis.com/a1aa/image/y9jhL6waB-CHGe-NQdpIxibiPH0_rzT6wsD_TA38U54.jpg"
+                        width="300" />
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img alt="Project image 5" class="rounded-lg" height="200"
+                        src="https://storage.googleapis.com/a1aa/image/3duWHQgp_erJK1p0aMhHt68uhUAwXZsUcZraPqTOzqE.jpg"
+                        width="300" />
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <img alt="Project image 6" class="rounded-lg" height="200"
+                        src="https://storage.googleapis.com/a1aa/image/YslwL37b-dIDmuYRPjzqsd0gorBLFjUwn-5hM-EPJw8.jpg"
+                        width="300" />
+                </div>
+            </div> 
+        
+          
+
+
+        </section>
+        <section id="contact" class="py-10 fade-in">
+            <h2 class="text-4xl font-bold text-center">Contact <span class="neon-text">Me!</span></h2>
+            <form class="max-w-lg mx-auto mt-10" id="contactForm">
+                <div class="flex flex-col md:flex-row md:space-x-4">
+                    <input class="bg-gray-800 p-4 rounded-lg mb-4 md:mb-0 w-full" id="fullName" placeholder="Full Name"
+                        type="text" />
+                    <input class="bg-gray-800 p-4 rounded-lg w-full" id="emailAddress" placeholder="Email Address"
+                        type="email" />
+                </div>
+                <input class="bg-gray-800 p-4 rounded-lg w-full mt-4" id="subject" placeholder="Subject" type="text" />
+                <textarea class="bg-gray-800 p-4 rounded-lg w-full mt-4 h-32" id="message"
+                    placeholder="Your Message"></textarea>
+                <button class="neon-button mt-4 w-full" type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-gray-800 p-4 text-center fade-in">
+        <p>Copyright © 2023 by vinesh Gaikawad. All rights reserved.</p>
+    </footer>
+    <script>
+       
+    </script>
+</body>
+<script src="script.js"></script>
+
+</html>
